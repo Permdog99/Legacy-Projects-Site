@@ -1,0 +1,46 @@
+<?php
+$test = 0;
+?>
+
+<head>
+<title>Legacy Mipmaps</title>
+<link rel="stylesheet" href="../../style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="../../icon_mipmaps.ico">
+
+<meta content="Legacy Mipmaps" property="og:title" />
+<meta content="Adds back Legacy Console Mipmaps to Java Edition!" property="og:description" />
+
+<link rel="preload" as="image" href="../../textures/gui/button_highlighted.png">
+<link rel="preload" as="image" href="../../textures/gui/button.png">
+<link rel="preload" as="audio" href="../../sounds/action.ogg">
+<link rel="preload" as="audio" href="../../sounds/focus.ogg">
+
+<script src="sound.js" allow="autoplay"></script>
+
+<audio id="hover" autoplay>
+<source src="../../sounds/focus.ogg" type="audio/ogg">
+</audio>
+
+<audio id="click" autoplay>
+<source src="../../sounds/action.ogg" type="audio/ogg">
+</audio>
+
+</head>
+<div class="center-screen">
+<div class="box-secondary">
+<hr>
+<span class="credits-title">
+<h1 style="color:#ffffff;">Update 1.1.0</h1>
+</span>
+<hr>
+<span class="credits-desc" style="color:#ffffff;">
+<p>
+- Improved Mipmaps significantly <br>
+- Added an icon (finally)
+</p>
+</span>
+<a onmouseover="hoverSound()" onclick="clickSound()" class="mc-button" href="../changelogs.html">Back...</a><br>
+</div>
+</div>

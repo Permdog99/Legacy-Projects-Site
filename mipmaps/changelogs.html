@@ -1,0 +1,38 @@
+<?php
+$test = 0;
+?>
+<head>
+<title>Legacy Mipmaps</title>
+<link rel="stylesheet" href="../style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="../icon_mipmaps.ico">
+
+<meta content="Legacy Mipmaps" property="og:title" />
+<meta content="Adds back Legacy Console Mipmaps to Java Edition!" property="og:description" />
+
+<link rel="preload" as="image" href="../textures/gui/button_highlighted.png">
+<link rel="preload" as="image" href="../textures/gui/button.png">
+<link rel="preload" as="audio" href="../sounds/action.ogg">
+<link rel="preload" as="audio" href="../sounds/focus.ogg">
+
+
+<script src="sound.js" allow="autoplay"></script>
+
+<audio id="hover" autoplay>
+<source src="../sounds/focus.ogg" type="audio/ogg">
+</audio>
+
+<audio id="click" autoplay>
+<source src="../sounds/action.ogg" type="audio/ogg">
+</audio>
+
+</head>
+<div class="center-screen">
+<h1><img src="../textures/title/banner_mipmaps.png" style="width:876px;height:169px;"></h1>
+<p>
+<a onmouseover="hoverSound()" onclick="clickSound()" class="mc-button" href="changelogs/1.2.1.html">1.2.1 (Latest)</a><br>
+<a onmouseover="hoverSound()" onclick="clickSound()" class="mc-button" href="changelogs/1.2.0.html">1.2.0</a><br>
+<a onmouseover="hoverSound()" onclick="clickSound()" class="mc-button" href="changelogs/1.1.0.html">1.1.0</a><br>
+<a onmouseover="hoverSound()" onclick="clickSound()" class="mc-button" href="main.html">Back...</a><br>
+</div>
