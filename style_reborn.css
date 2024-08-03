@@ -61,6 +61,21 @@ a {
   image-rendering: pixelated;
 }
 
+.box-secondary {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+  padding: 5vh;
+  border-image: url('textures/gui/second_gui.png');
+  border-image-slice: 100 100 fill;
+  border-image-width: 64px;
+  margin-top: 10px;
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
 .center-screen {
 display: flex;
 flex-direction: column;
@@ -128,4 +143,18 @@ hr {
   border: 0;
   border-top: 2px solid #555555;
 
+}
+
+}
+.credits-desc {
+font-family: 'minecraft';
+font-size: 15px;
+color: #ffffff;
+text-shadow: 1px 1px 00 #000;
+}
+.credits-title {
+font-family: 'minecraft';
+font-size: 20px;
+color: #ffffff;
+text-shadow: 1px 1px 00 #000;
 }
