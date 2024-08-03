@@ -1,0 +1,41 @@
+<?php
+$test = 0;
+?>
+<head>
+<title>Legacy Projects</title>
+<link rel="stylesheet" href="../../style_reborn.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="../../icon.ico">
+
+<meta content="Legacy Projects" property="og:title" />
+<meta content="The Official Website for Legacy Projects" property="og:description" />
+
+<link rel="preload" as="image" href="../../textures/gui/button_highlighted.png">
+<link rel="preload" as="image" href="../../textures/gui/button.png">
+<link rel="preload" as="audio" href="../../sounds/action.ogg">
+<link rel="preload" as="audio" href="../../sounds/focus.ogg">
+
+
+<script src="../../sound.js"></script>
+
+<audio id="hover">
+<source src="../../sounds/focus.ogg" type="audio/ogg">
+</audio>
+
+<audio id="click">
+<source src="../../sounds/action.ogg" type="audio/ogg">
+</audio>
+
+</head>
+<div class="center-screen">
+<h1><img src="../../textures/title/banner_reborn.png" style="width:650px;height:151px;"></h1>
+<p>
+<a onmouseover="hoverSound()" onclick="clickSound()" class="mc-button" href="https://modrinth.com/modpack/legacy-reborn">Modrinth</a><br>
+<a onmouseover="hoverSound()" onclick="clickSound()" class="mc-button" href="?credits">Credits (WIP)</a><br>
+<a onmouseover="hoverSound()" onclick="clickSound()" class="mc-button" href="?wiki">Wiki (WIP)</a><br>
+<a onmouseover="hoverSound()" onclick="clickSound()" class="mc-button" href="https://github.com/Permdog99/Legacy-Reborn">Source</a><br>
+<a onmouseover="hoverSound()" onclick="clickSound()" class="mc-button" href="https://youtu.be/LC_zobA5BMo">Trailer</a><br>
+<a onmouseover="hoverSound()" onclick="clickSound()" class="mc-button" href="https://github.com/Permdog99/Legacy-Reborn/issues">Issues</a><br>
+<a onmouseover="hoverSound()" onclick="clickSound()" class="mc-button" href="../projects.html">Back...</a><br>
+</div>
